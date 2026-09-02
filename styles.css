@@ -1,0 +1,21 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    display: flex;
+    grid-template: auto 3fr / auto 1fr;
+}
+.header{
+    padding: 2rem;
+    grid-column: 1 / 4;
+}
+.footer{
+    padding: 2rem;
+    grid-column: 1 / 4;
+}
