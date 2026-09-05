@@ -1,0 +1,103 @@
+nav ul {
+    list-style-type: disc;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 2;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-around;
+    align-items: center;
+}
+.content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+.presentation{
+    display: grid;
+    border-color: black;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+/* .h3-image {
+    float: left;
+    width: 100px;
+    height: 100px;
+} */
+
+/* .h2-image{
+    width: 100px;
+    height: 100px;
+} */
+h1{
+    text-align: center;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+
+}
+.resources{
+    display: grid;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid brown;
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 7px;
+    height: auto;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    justify-content: space-around;   
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    line-height: 2;
+}
+.toliara-image{
+    float: left;
+    margin-right: 10px;
+    padding: 3px;
+    width: 180px;
+    height: auto;
+} 
+.toliara-image img{
+    display: block;
+    width : 100%;
+}
+.toliara-image figcaption{
+    text-align: center;
+    padding: 5px;
+}
+.me img{
+    float: right;
+    margin: 3px;
+    padding: 3px;
+    width: 180px;
+    height: auto;
+}
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+.resources h2{
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+}
