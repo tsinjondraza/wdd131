@@ -1,5 +1,5 @@
 nav ul {
-    list-style-type: disc;
+    list-style-type: disc ;
     flex-wrap: wrap;
     max-width: 900px;
     margin: 0 auto;
@@ -21,7 +21,7 @@ section{
 .presentation{
     display: grid;
     border-color: black;
-    border: 5px solid black;
+    border: 1px solid black;
     padding: 5px;
     margin: 5px;
 }
