@@ -1,0 +1,10 @@
+nav ul{
+    list-style-type: none ;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 2;
+    display: flex;
+}
