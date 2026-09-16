@@ -1,7 +1,9 @@
 header{
     text-align: center;
     color: white;
-    background-color: rgb(214, 245, 99);
+    background-color: black;
+    font-size: large;
+    padding: auto;
 }
 .links{
     color: white;    
@@ -40,6 +42,7 @@ figcaption{
     text-align: center;
     font-size: 10px;
     padding: 3px;
+    max-width: 250px;
 }
 footer{
     text-align: center;
@@ -54,7 +57,7 @@ footer{
     color: #000;
 }
 #menu::before{
-    content:"=";
+    content:"☰";
 }
 nav{
     background-color: #ace;
@@ -87,6 +90,11 @@ nav{
 }
 #menu.show::before{
     content:"X";
+}
+footer{
+    color: white;
+    background-color: black;
+    line-height: auto;
 }
 /* .show{
     
